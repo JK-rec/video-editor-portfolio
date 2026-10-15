@@ -112,19 +112,19 @@ window.SITE = {
 
     { category: "short", featured: true,
       title: "", note: "",
-      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/1Zb4V2rduEw?feature=share" } },
+      poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/1Zb4V2rduEw?feature=share" } },
     { category: "short", featured: true,
       title: "", note: "",
-      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/np8LZUnoLLI?feature=share" } },
+      poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/np8LZUnoLLI?feature=share" } },
     { category: "short", featured: true,
       title: "", note: "",
-      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/jUZKhJn7VD4?feature=share" } },
+      poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jUZKhJn7VD4?feature=share" } },
 
     /* Короткие видео */
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "" } },
 
     /* YouTube */
     { category: "youtube", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
