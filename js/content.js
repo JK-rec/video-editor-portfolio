@@ -8,7 +8,7 @@
 window.SITE = {
 
   /* ---------- Первый экран ---------- */
-  name: "JK .rec",               // ЗАГЛУШКА. Слова переносятся на отдельные строки, например "Алексей Орлов".
+  name: "JK.rec",               // ЗАГЛУШКА. Слова переносятся на отдельные строки, например "Алексей Орлов".
   role: "Видеомонтаж",
   tagline: "Вертикальный контент для Reels, Shorts и TikTok. Горизонтальный контент для YouTube.",
 
@@ -111,20 +111,20 @@ window.SITE = {
       poster: "", video: { type: "youtube", id: "lHXcnsNUfYs" } },
 
     { category: "short", featured: true,
-      title: "Название проекта", note: "",
-      poster: "", video: { type: "file", src: "assets/videos/reel1.mov" } },
+      title: "", note: "",
+      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/1Zb4V2rduEw?feature=share" } },
     { category: "short", featured: true,
-      title: "Название проекта", note: "",
-      poster: "", video: { type: "file", src: "assets/videos/reel2.mov" } },
+      title: "", note: "",
+      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/np8LZUnoLLI?feature=share" } },
     { category: "short", featured: true,
-      title: "Название проекта", note: "",
-      poster: "", video: { type: "file", src: "assets/videos/reel3.mov" } },
+      title: "", note: "",
+      poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/jUZKhJn7VD4?feature=share" } },
 
     /* Короткие видео */
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "file", src: "" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "file", src: "" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "file", src: "" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "file", src: "" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
+    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", src: "" } },
 
     /* YouTube */
     { category: "youtube", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
