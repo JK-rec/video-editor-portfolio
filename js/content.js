@@ -90,7 +90,7 @@ window.SITE = {
      Каждый проект это один блок { ... }. Скопируйте блок, чтобы добавить проект, удалите, чтобы убрать.
 
      category : "short" | "youtube" | "other"
-     featured : true  = показывается в большом блоке «Избранные работы» вверху
+     featured : true  = показывается в большом блоке «Проекты» вверху
                 false = показывается в своей категории ниже (проект никогда не показывается дважды)
      format   : "vertical" (9:16) или "horizontal" (16:9). Необязательно: short = vertical, остальные = horizontal
      title    : название проекта
@@ -107,7 +107,7 @@ window.SITE = {
 
     /* Избранные (большой блок вверху) */
     { category: "youtube", featured: true, format: "horizontal",
-      title: "Название проекта", note: "Добавьте, что вы делали в этом видео",
+      title: "", note: "",
       poster: "", video: { type: "youtube", id: "lHXcnsNUfYs" } },
 
     { category: "short", featured: true,
@@ -121,14 +121,14 @@ window.SITE = {
       poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jUZKhJn7VD4?feature=share" } },
 
     /* Короткие видео */
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
-    { category: "short", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "" } },
+    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
+    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
+    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
+    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "" } },
 
     /* YouTube */
-    { category: "youtube", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
-    { category: "youtube", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=0NmrjDtUAjA&t=15s" } },
+    { category: "youtube", title: "", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
+    { category: "youtube", title: "", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=0NmrjDtUAjA&t=15s" } },
 
     /* Другие проекты */
     { category: "other", format: "horizontal", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "" } },
