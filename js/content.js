@@ -107,31 +107,26 @@ window.SITE = {
 
     /* Избранные (большой блок вверху) */
     { category: "youtube", featured: true, format: "horizontal",
-      title: "", note: "",
+      title: " ", note: "",
       poster: "", video: { type: "youtube", id: "lHXcnsNUfYs" } },
 
     { category: "short", featured: true,
-      title: "", note: "",
+      title: " ", note: "",
       poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/1Zb4V2rduEw?feature=share" } },
     { category: "short", featured: true,
-      title: "", note: "",
+      title: " ", note: "",
       poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/np8LZUnoLLI?feature=share" } },
     { category: "short", featured: true,
-      title: "", note: "",
+      title: " ", note: "",
       poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jUZKhJn7VD4?feature=share" } },
 
     /* Короткие видео */
-    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
-    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
-    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
-    { category: "short", title: "", note: "", poster: "", video: { type: "youtube", id: "" } },
+    { category: "short", title: " ", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/3yiJvNH0To8?feature=share" } },
+    { category: "short", title: " ", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/GrAWaFX3AZQ" } },
+    { category: "short", title: " ", note: "", poster: "", video: { type: "youtube", id: "https://youtube.com/shorts/jiEoXjDOEuQ?feature=share" } },
 
     /* YouTube */
-    { category: "youtube", title: "", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
-    { category: "youtube", title: "", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=0NmrjDtUAjA&t=15s" } },
-
-    /* Другие проекты */
-    { category: "other", format: "horizontal", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "" } },
-    { category: "other", format: "horizontal", title: "Название проекта", note: "", poster: "", video: { type: "youtube", id: "" } }
+    { category: "youtube", title: " ", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=bjdoHqfFXlA&list=RDbjdoHqfFXlA&start_radio=1" } },
+    { category: "youtube", title: " ", note: "", poster: "", video: { type: "youtube", id: "https://www.youtube.com/watch?v=0NmrjDtUAjA&t=15s" } }
   ]
 };
