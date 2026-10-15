@@ -98,7 +98,7 @@ window.SITE = {
      poster   : необязательная обложка, например "assets/images/my-cover.jpg".
                 Для YouTube не нужна (превью подтягивается автоматически).
      video    : откуда берётся видео. Используйте ОДИН вариант:
-                { type: "youtube", id: "dQw4w9WgXcQ" }     // ID на YouTube или ссылка целиком (ссылки на Shorts подходят)
+                { type: "youtube", id: "https://www.youtube.com/watch?v=lHXcnsNUfYs&t=234s" }     // ID на YouTube или ссылка целиком (ссылки на Shorts подходят)
                 { type: "vimeo",   id: "123456789" }       // ID или ссылка на Vimeo (добавьте poster)
                 { type: "file",    src: "assets/videos/my-video.mp4" }   // ваш MP4 (до 25 МБ)
                 Если id/src пустые (""), карточка покажет заглушку «Здесь будет ваше видео».
